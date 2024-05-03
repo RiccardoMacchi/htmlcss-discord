@@ -1,0 +1,245 @@
+/* Regole Generali */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Regole Header */
+header {
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ffff;
+}
+
+
+/* Regole Bottoni */
+button {
+    border: none;
+    border-radius: 30px;
+    padding: 9px 25px;
+    margin: 20px;
+}
+
+button#black{
+    background-color: #23272a;
+    color: #ffff;
+}
+
+button#blue{
+    background-color: #8ea1e1;
+    color: #ffff;
+}
+
+
+/* Regole Menu */
+#header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#logo{
+    max-height: 70px;
+
+    /* background-color: #daa520;
+    width: 20%;
+    border: 2px dashed black;
+  */
+}
+
+#login{
+    text-align: end;
+    width: 20%;
+
+    /* background-color: #daa520;
+    border: 2px dashed black;
+    min-height: 70px; */
+}
+
+nav#menu{
+    text-align: end;
+    width: 40%;
+
+    /* background-color: #daa520;
+    border: 2px dashed black;
+    min-height: 70px; */
+
+}
+
+/* Regole Menu Lista */
+ul#menurow li {
+    display: inline;
+    padding: 0 3%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a{
+    color: #ffff;
+}
+
+li a.firstlist{
+    color: #5b6da8;
+}
+
+/* Regole Header Intro */
+#intro{
+    min-height: 450px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+#header-intro {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+h1 {
+    font-size: 34px;
+    margin-bottom: 60px;
+}
+
+/* Regole Main */
+
+/* Regole Sezioni main */
+
+.sectionodd {
+    background-color: rgb(255, 255, 255);
+}
+
+.sectioneven{
+    background-color: #d3d3d3;
+}
+
+.divbody {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgbody {
+    width: 35%;
+}
+
+
+.txtbody {
+    width: 25%;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Regole Sezione finale body */
+#divfinebody {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+
+h5 {
+    font-size: 24px;
+    padding: 25px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#divfinebody button {
+    display: block;
+    margin: auto;
+}
+
+#sectionfine {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background-color: #d3d3d3;
+}
+
+
+/* Regole footer */
+footer {
+    background-color: #23272a;
+}
+
+#sectioninfo {
+    padding-top: 55px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+#divsocial {
+    width: 20%;
+    color: #ffff;
+}
+
+.infolist {
+    width: 10%;
+}
+
+#ita {
+    width: 16px;
+}
+
+h6 {
+    display: inline;
+}
+
+h4 {
+    color: #5b6da8;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#emoticonsocial {
+    color: #ffff;
+    margin-top: 5px;
+}
+
+div.infolist li {
+    line-height: 200%;    
+}
+/* Regole fine footer */
+
+#sectionend {
+    display: flex;
+    justify-content: center;
+    min-height: 150px;
+
+}
+
+#divend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+hr {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #364056;
+}

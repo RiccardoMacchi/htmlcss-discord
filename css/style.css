@@ -1,0 +1,203 @@
+/* Regole Generali */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Regole Header */
+header {
+    /* Debug */
+    background-color: #00008b;
+}
+
+
+/* Regole Bottoni */
+button {
+    border-radius: 30px;
+    padding: 8px;
+}
+
+/* Regole Menu */
+#header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: #add8e6;
+    min-height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#logo{
+    /* Debug */
+    background-color: #daa520;
+    width: 20%;
+    border: 2px dashed black;
+    min-height: 70px;
+}
+
+#login{
+    text-align: end;
+    /* Debug */
+    background-color: #daa520;
+    width: 20%;
+    border: 2px dashed black;
+    min-height: 70px;
+}
+
+nav#menu{
+    text-align: center;
+    /* Debug */
+    background-color: #daa520;
+    width: 40%;
+    border: 2px dashed black;
+    min-height: 70px;
+
+}
+
+/* Regole Menu Lista */
+ul#menurow li {
+    display: inline;
+}
+
+
+/* Regole Header Intro */
+#intro{
+    min-height: 450px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+#header-intro {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    
+    /* Debug */
+    background-color: #ee82ee;
+    min-height: 350px;
+}
+
+/* Regole Main */
+
+/* Prima Sezione */
+
+.sectionodd {
+    background-color: rgb(255, 255, 255);
+}
+
+.sectioneven{
+    background-color: #d3d3d3;
+}
+
+.divbody {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.imgbody {
+    width: 35%;
+    /* Debug */
+    background-color: #1e90ff;
+    min-height: 500px;
+}
+
+
+.txtbody {
+    width: 25%;
+    /* Debug */
+    background-color: #ffc0cb;
+    min-height: 500px;
+}
+
+/* Regole Sezione finale body */
+#divfinebody {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    
+
+    /* Debug */
+    min-height: 650px;
+    background-color: #228b22;
+
+}
+
+#divfinebody button {
+    display: block;
+    margin: auto;
+}
+
+#sectionfine {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background-color: #d3d3d3;
+}
+
+
+/* Regole footer */
+
+#sectioninfo {
+    padding-top: 15px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+
+    /* Debug */
+    background-color: #23272a;
+}
+
+#divsocial {
+    width: 20%;
+    
+    /* Debug */
+    min-height: 400px;
+    background-color: #f08080;
+}
+
+.infolist {
+    width: 10%;
+
+    /* Debug */
+    min-height: 400px;
+    background-color: #20b2aa;
+    border: 1px solid black;
+}
+
+/* Regole fine footer */
+
+#sectionend {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    min-height: 150px;
+    background-color: #23272a;
+}
+
+#divend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+
+    /* Debug */
+    background-color: #7fffd4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+

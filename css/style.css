@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -14,15 +15,18 @@ a {
 
 /* Regole Header */
 header {
-    /* Debug */
-    background-color: #00008b;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    color: #ffff;
 }
 
 
 /* Regole Bottoni */
 button {
+    border: none;
     border-radius: 30px;
-    padding: 8px;
+    padding: 9px;
+
 }
 
 /* Regole Menu */
@@ -30,46 +34,56 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-    background-color: #add8e6;
     min-height: 100px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 #logo{
-    /* Debug */
-    background-color: #daa520;
+    max-height: 70px;
+
+    /* background-color: #daa520;
     width: 20%;
     border: 2px dashed black;
-    min-height: 70px;
+  */
 }
 
 #login{
     text-align: end;
-    /* Debug */
-    background-color: #daa520;
     width: 20%;
+
+    /* background-color: #daa520;
     border: 2px dashed black;
-    min-height: 70px;
+    min-height: 70px; */
 }
 
 nav#menu{
-    text-align: center;
-    /* Debug */
-    background-color: #daa520;
+    text-align: end;
     width: 40%;
+
+    /* background-color: #daa520;
     border: 2px dashed black;
-    min-height: 70px;
+    min-height: 70px; */
 
 }
 
 /* Regole Menu Lista */
 ul#menurow li {
     display: inline;
+    padding: 0 3%;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li a{
+    color: #ffff;
+}
+
+li a.firstlist{
+    color: #4e00cb;
+}
 
 /* Regole Header Intro */
 #intro{

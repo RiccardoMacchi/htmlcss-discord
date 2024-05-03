@@ -111,13 +111,13 @@ li a.firstlist{
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 34px;
     margin-bottom: 60px;
 }
 
 /* Regole Main */
 
-/* Prima Sezione */
+/* Regole Sezioni main */
 
 .sectionodd {
     background-color: rgb(255, 255, 255);
@@ -131,24 +131,22 @@ h1 {
     padding-top: 65px;
     padding-bottom: 65px;
     display: flex;
-    justify-content: center;
-    margin: auto;
-
+    justify-content: space-around;
+    align-items: center;
 }
 
 .imgbody {
     width: 35%;
-    /* Debug */
-    background-color: #1e90ff;
-    min-height: 500px;
 }
 
 
 .txtbody {
     width: 25%;
-    /* Debug */
-    background-color: #ffc0cb;
-    min-height: 500px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 /* Regole Sezione finale body */

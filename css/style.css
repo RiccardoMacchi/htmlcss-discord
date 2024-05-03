@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 150%;
 }
 
 a {
@@ -16,6 +17,7 @@ a {
 /* Regole Header */
 header {
     background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     color: #ffff;
 }
@@ -25,9 +27,19 @@ header {
 button {
     border: none;
     border-radius: 30px;
-    padding: 9px;
-
+    padding: 9px 15px;
+    margin: 20px;
 }
+
+button#black{
+    background-color: #23272a;
+    color: #ffff;
+}
+
+button#blue{
+    background-color: #8ea1e1;
+}
+
 
 /* Regole Menu */
 #header-menu {
@@ -96,10 +108,11 @@ li a.firstlist{
     text-align: center;
     margin: auto;
     width: 50%;
-    
-    /* Debug */
-    background-color: #ee82ee;
-    min-height: 350px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 60px;
 }
 
 /* Regole Main */
@@ -190,6 +203,14 @@ li a.firstlist{
     min-height: 400px;
     background-color: #20b2aa;
     border: 1px solid black;
+}
+
+#ita {
+    width: 16px;
+}
+
+h6 {
+    display: inline;
 }
 
 /* Regole fine footer */

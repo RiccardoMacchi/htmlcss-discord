@@ -118,6 +118,19 @@ h1 {
 
 /* Regole Main */
 
+/* Regole onda */
+#ondareverse {
+    transform: rotate(180deg);
+}
+
+
+.divonda {
+    min-height: 150px;
+    background-size: contain;
+    background-image: url(../img/wave.svg);
+    
+}
+
 /* Regole Sezioni main */
 
 .sectionodd {
